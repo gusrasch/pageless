@@ -164,7 +164,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "mcp", extras = ["cli"] }]
+requires-dist = [{ name = "mcp", extras = ["cli"], specifier = ">=1.4.1" }]
 
 [[package]]
 name = "pydantic"
